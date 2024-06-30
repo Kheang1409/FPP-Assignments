@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="assignment06.metric_conversion_assistant.Main">
+  <grid id="27dc6" binding="panelGridlMain" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="37" width="646" height="284"/>
+    </constraints>
+    <properties/>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none"/>
+    <children>
+      <component id="721e3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fahrenheit:"/>
+        </properties>
+      </component>
+      <component id="cd4b9" class="javax.swing.JTextField" binding="textFieldFahrenheit">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="e4818" class="javax.swing.JButton" binding="buttonConversion">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <text value="Convert"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="99d06" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Gallon:"/>
+        </properties>
+      </component>
+      <component id="c9116" class="javax.swing.JTextField" binding="textFieldGallon">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="7eb09" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Centigrade:"/>
+        </properties>
+      </component>
+      <component id="66bf9" class="javax.swing.JTextField" binding="TextFieldCentigrade">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b28d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pound:"/>
+        </properties>
+      </component>
+      <component id="6c3e7" class="javax.swing.JTextField" binding="textFieldPound">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="52523" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mile:"/>
+        </properties>
+      </component>
+      <component id="70c81" class="javax.swing.JTextField" binding="textFieldMile">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="6"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="b1230" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Group5"/>
+        </properties>
+      </component>
+      <component id="fa75b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Liters:"/>
+        </properties>
+      </component>
+      <component id="c017d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kilometer:"/>
+        </properties>
+      </component>
+      <component id="edb2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kilogram:"/>
+        </properties>
+      </component>
+      <component id="709bd" class="javax.swing.JTextField" binding="textFieldLiter">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="beeb0" class="javax.swing.JTextField" binding="textFieldKilogram">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+      <component id="368f" class="javax.swing.JTextField" binding="textFieldKilometer">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="6"/>
+          <horizontalAlignment value="4"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
