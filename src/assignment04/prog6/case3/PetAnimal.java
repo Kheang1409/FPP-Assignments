@@ -1,4 +1,4 @@
-package prog6.case3;
+package assignment04.prog6.case3;
 
 class PetAnimal {
 

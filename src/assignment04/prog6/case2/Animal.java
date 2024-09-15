@@ -1,4 +1,4 @@
-package prog6.case2;
+package assignment04.prog6.case2;
 
 import prog6.AnimalType;
 
